@@ -1,0 +1,192 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero {
+  background: url(https://sangalotech.com/html/10/assets/images/hero-bg.jpg);
+  background-size: cover;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.6rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: red;
+}
+
+.btn-outline-light:hover {
+  background: transparent;
+  color: #fff;
+}
+
+.virus {
+  -webkit-animation: virus 20s linear infinite;
+          animation: virus 20s linear infinite;
+}
+
+@-webkit-keyframes virus {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes virus {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.hero-title {
+  color: white;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.num {
+  color: #00FF99;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.bg {
+  background: #06254C;
+}
+
+.bg1 {
+  background: #06254C;
+  color: #fff;
+}
+
+.col-lg-6 h5 {
+  color: #00FF99;
+}
+
+.sticky {
+  background: #06254C;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  z-index: 999;
+}
+
+.Symptoms {
+  background: url(https://sangalotech.com/html/10/assets/images/service-bg.jpg);
+}
+
+.bg3 {
+  background: rgba(6, 37, 76, 0.4117647059);
+  border-radius: 10px;
+}
+
+.bg2 {
+  background: #06254C;
+  color: #fff;
+}
+
+.best-doctor {
+  background: url(https://sangalotech.com/html/10/assets/images/service-bg.jpg);
+}
+
+.Wash-hands {
+  background: #06254C;
+}
+
+span {
+  position: absolute;
+  background: springgreen;
+  padding: 10px 15px;
+  border-radius: 50%;
+  border: 3px solid #06254C;
+  left: 50%;
+  top: 15%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.Blog {
+  background: #0C3B73;
+  padding-bottom: 5%;
+}
+
+.Blog-topic-terms {
+  background: #06254C;
+  color: #fff;
+}
+.Blog-topic-terms .Blog-topic-terms-details {
+  padding: 20px 20px;
+}
+.Blog-topic-terms .Blog-topic-terms-details h4:hover {
+  color: rgb(186, 80, 80);
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+.hover:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+.hover:hover .bg3 {
+  background: white;
+}
+.hover:hover h4 {
+  color: black !important;
+}
+.hover:hover p {
+  color: grey !important;
+}
+
+.effect {
+  overflow: hidden;
+}
+.effect:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.foot {
+  background: url(https://sangalotech.com/html/10/assets/images/footer-bg.jpg);
+  color: #fff;
+}
+
+.foot-list-item {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-toggler {
+  background: transparent;
+  font-size: 2rem;
+  color: #fff;
+  border: none;
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}/*# sourceMappingURL=style.css.map */
